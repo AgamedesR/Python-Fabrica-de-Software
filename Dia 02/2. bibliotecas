@@ -1,0 +1,8 @@
+# math
+# Biblioteca nativa do Python que fornece funções e constantes matemáticas avançadas, como raiz quadrada, potência, logaritmo, trigonometria e o valor de pi.
+
+# random
+# Biblioteca nativa do Python que permite gerar números e escolhas aleatórias, como sortear um número dentro de um intervalo, embaralhar listas ou escolher um item aleatório.
+
+# datetime
+# Biblioteca nativa do Python que permite trabalhar com datas e horas, como obter a data atual, calcular diferença entre datas, formatar e manipular dias, meses, anos, horas e minutos.

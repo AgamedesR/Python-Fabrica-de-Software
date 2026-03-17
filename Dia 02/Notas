@@ -1,0 +1,42 @@
+'''NOTAS'''
+# Lista, tuplas, dicionarios, conjuntos.
+
+# Função
+# sintaxe: def
+# definição: Armazena um bloco de código que pode ser reutilizado.
+# def nome_da_funcao(parametro):
+# nome_da_funcao(argumento)
+
+
+'''CALCULADORA POO'''
+# Classe (molde) = Calculadora
+# objeto (instancia da classe)= calc
+# metodo (funcao dentro da classe) = soma, subtracao, multiplicacao, divisao 
+
+# self => referência ao próprio objeto da classe (convenção universal do Python)
+
+# INICIAR COM DEF INIT => Com __init__ → quando cada objeto precisa de dados próprios
+
+'''Requirements.txt'''
+# Lista de todas a bibliotecas externas que o projeto precisa
+
+#O requirements.txt só lista bibliotecas externas instaladas via pip.
+#O 'os' assim como 'math', 'random' e 'datetime' é uma biblioteca nativa do Python — já vem instalada, só precisa do import.
+
+# pip freeze > requirements.txt
+    # pip freeze => Lista todas as bibliotecas instaladas no venv atual com suas versões
+    # > =>Redireciona a saída para um arquivo (em vez de mostrar no terminal)
+    # requirements.txt => O arquivo que recebe a lista
+
+'''import requests'''
+# Em caso de instalação e sem sucesso para sua execução, uma possibilidade é estar selecionado o interpretador errado.
+# Correção: Ctrl + SHift + P -> python: select interpreter -> Selecione a venv na qual foi instalada o requests. 
+# OBS.: Não apenas para requests, mas para qualuqer instação que haja possibilidade de erro semelhante.
+
+
+'''Constantes'''
+# Constante é uma variável que não muda de valor durante o programa.
+
+# Pense assim:
+    # Variável = o saldo da sua conta bancária → muda o tempo todo
+    # Constante = o número da sua conta bancária → nunca muda

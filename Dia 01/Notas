@@ -1,11 +1,18 @@
-- venv (virtual environment) é um ambiente Python isolado.Ele cria uma "caixa separada" com seu próprio Python e pacotes, independente do Python instalado no sistema.
-- Por que usar?
-Imagine dois projetos: um precisa do Django 3.0 e outro do Django 5.0. Sem venv, você não consegue ter as duas versões ao mesmo tempo. Com venv, cada projeto tem seus próprios pacotes sem conflito.
+'''VENV'''
+# venv (virtual environment) => ambiente Python isolado com seu próprio Python e pacotes, independente do sistema.
 
-- Criar: py -m venv venv
-   py -> chama o python
-   -m venv -> executa o módulo 
-   venv (ultimo) -> nome da pasta que será criada
+'''Por que usar?'''
+# Imagine dois projetos: um precisa do Django 3.0 e outro do Django 5.0.
+# Sem venv, você não consegue ter as duas versões ao mesmo tempo.
+# Com venv, cada projeto tem seus próprios pacotes sem conflito.
 
-- Ativar: venv/scripts/activate
-   Diz ao terminal: "a partir de agora, use o Python e os pacotes desta pasta". Você saberá que está ativo porque o terminal mostra (venv) no início da linha.
+'''Criar'''
+# py -m venv venv
+# py         => chama o Python
+# -m venv    => executa o módulo
+# venv       => nome da pasta que será criada
+
+'''Ativar'''
+# venv/scripts/activate
+# Diz ao terminal: "a partir de agora, use o Python e os pacotes desta pasta".
+# Você saberá que está ativo porque o terminal mostra (venv) no início da linha.
