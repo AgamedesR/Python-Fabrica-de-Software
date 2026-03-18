@@ -1,0 +1,16 @@
+'''Tipos de Erros'''
+
+'''Tratamento de Erros'''
+# try e except
+
+'''Erros Personalizados'''
+# 'raise' => ele interrompe o código e sinaliza que algo errado aconteceu, com uma mensagem explicando o motivo.
+
+'''Ferramentas Extras para Depuração'''
+# print() para debug → exibe valores intermediários para checar o que está acontecendo no código
+
+# Modo Interativo (python -i) → executa o código linha por linha no terminal
+
+# PDB (Python Debugger) → pausa o código e permite inspecionar variáveis em tempo real
+# Uso: import pdb; pdb.set_trace()
+
